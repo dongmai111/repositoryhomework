@@ -102,28 +102,6 @@ int main()
 
 }
 
-int menu()
-{
-    int x;
 
-        cout<<"\nEnter 1 to insert"<<endl;
-        cout<<"\nEnter 2 to delete"<<endl;
-        cout<<"\nEnter 3 to search"<<endl;
-        cout<<"\nEnter 4 to get length"<<endl;
-        cout<<"\nEnter 5 to delete all occurences"<<endl;
-        cout<<"\nEnter 6 to check if the list is full"<<endl;
-        cout<<"\nEnter 7 to check if the list is empty"<<endl;
-        cout<<"\nEnter 8 to make the list empty"<<endl;
-        cout<<"\nEnter 9 to printing the list"<<endl;
-
-        cin>>x;
-
-    if (x<1 || x>9)
-        cout<<"The number you enter is either too small or too large!"<<endl;
-
-    else
-        return x;
-
-}
 
 //#endif
